@@ -1,3 +1,5 @@
+#k-means clustering
+
 totwinss =c()
 
 for (k in 2:10) {
@@ -14,3 +16,4 @@ lines(1:10, totwinss)
 k_cl = kmeans(pmatrix, 3)
 
 table(iris$Species, k_cl$cluster)
+

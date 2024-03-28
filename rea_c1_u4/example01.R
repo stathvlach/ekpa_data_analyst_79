@@ -1,4 +1,5 @@
-# ?iris
+#Hierarchical clustering 
+?iris
 
 dat = iris[, 1:4]
 
